@@ -1,0 +1,35 @@
+.hero{
+    @include Display ( $ai:start ,$jc:space-between , $g:0px );
+}
+.hero__firs-wrapper{
+    // max-width: 560px;
+    padding: 180px 0 152px;
+    
+    &>h2{
+        @include TextStyle ($fw:700, $fs:40px, $lh:100%, $ls:0%, $clr: $color-black );
+        width: 100%;
+        &>span{
+            @include TextStyle ($fw:700, $fs:40px, $lh:100%, $ls:0%, $clr: $color-blue );
+        }
+    }
+    &>p{
+        @include TextStyle ($fw:400, $fs:18px, $lh:100%, $ls:0%, $clr: $color-black);
+        width: 100%;
+        padding: 40px 0 50px;
+    }
+    &__buttons-wrapper{
+       @include Display ( $ai:center ,$jc:space-between , $g:0px );
+    }
+    .button1{
+        @include ButtonStyle ( $btnClr: $color-white, $btnBg:$color-btn, $btnBordClr:transparent);
+       }
+       .button2{
+        @include ButtonStyle ( $btnClr: $color-black, $btnBg:$color-white, $btnBordClr:$color-btn);
+        margin-left: 40px;
+       }
+}
+.hero__second-wrapper{
+    &>img{
+        padding: 0 20px;
+    }
+}
