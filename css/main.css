@@ -115,6 +115,14 @@ body {
   line-height: 100%;
   letter-spacing: 0%;
   color: #FFFFFF;
+  transition: all 0.4s;
+}
+.header_navbar a:hover {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #A23AC1;
 }
 .header__btns-wrapper {
   display: flex;
@@ -131,6 +139,18 @@ body {
   padding: 11px 35px;
   border-radius: 10px;
   background-color: #FFFFFF;
+  border: 3px solid transparent;
+  transition: all 0.4s;
+}
+.header__contact-btn:hover {
+  font-weight: 500;
+  font-size: 24;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  padding: 11px 35px;
+  border-radius: 10px;
+  background-color: skyblue;
   border: 3px solid transparent;
 }
 @media (max-width: 729px) {
@@ -200,7 +220,7 @@ body {
   letter-spacing: 0%;
   color: #5855E7;
 }
-.hero__firs-wrapper > p {
+.hero__firs-wrapper .hero__text {
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
@@ -225,6 +245,18 @@ body {
   border-radius: 10px;
   background-color: #6347EB;
   border: 3px solid transparent;
+  transition: all 0.4s;
+}
+.hero__firs-wrapper .button1:hover {
+  font-weight: 500;
+  font-size: 24;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #000000;
+  padding: 11px 35px;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  border: 3px solid #6347EB;
 }
 .hero__firs-wrapper .button2 {
   font-weight: 500;
@@ -236,7 +268,19 @@ body {
   border-radius: 10px;
   background-color: #FFFFFF;
   border: 3px solid #6347EB;
+  transition: all 0.4s;
   margin-left: 40px;
+}
+.hero__firs-wrapper .button2:hover {
+  font-weight: 500;
+  font-size: 24;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  padding: 11px 35px;
+  border-radius: 10px;
+  background-color: #6347EB;
+  border: 3px solid transparent;
 }
 
 .hero__second-wrapper {
@@ -323,22 +367,21 @@ body {
     margin-top: 30px;
   }
 }
-.about > p {
+.about .about-text {
   font-weight: 400;
   font-size: 24px;
   line-height: 100%;
   letter-spacing: 0%;
   color: #000000;
   width: 100%;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
-.about > span {
+.about .about-span {
   font-weight: 400;
   font-size: 24px;
   line-height: 100%;
   letter-spacing: 0%;
   color: #000000;
-  width: 100%;
 }
 
 .Advantage {

@@ -37,14 +37,14 @@ margin-top: 30px;
 }
 }
     }
-    &>p{
+    .about-text{
         @include  TextStyle ($fw:400, $fs:24px, $lh:100%, $ls:0%, $clr: $color-black );
         width: 100%;
-        margin-bottom: 40px;
+        margin-bottom: 50px;
         }
-        &>span{
+        .about-span{
             @include  TextStyle ($fw:400, $fs:24px, $lh:100%, $ls:0%, $clr: $color-black );
-        width: 100%;
+        
     }
 
 }

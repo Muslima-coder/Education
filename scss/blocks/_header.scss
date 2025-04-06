@@ -59,6 +59,10 @@
     
     a{
         @include TextStyle ($fw:500, $fs:24px, $lh:100%, $ls:0%, $clr: $color-white );
+        transition: all 0.4s;
+        &:hover{
+            @include TextStyle ($fw:500, $fs:24px, $lh:100%, $ls:0%, $clr: $color-purple );
+        }
     }
     }
     &__btns-wrapper{
@@ -66,6 +70,10 @@
     }
     &__contact-btn{
         @include ButtonStyle ( $btnClr: $color-black, $btnBg: $color-white, $btnBordClr: transparent);
+        transition: all 0.4s;
+        &:hover{
+            @include ButtonStyle ( $btnClr: $color-white, $btnBg: skyblue, $btnBordClr: transparent);
+        }
        // Mobile media
         @media (max-width:729px){
             display: none;

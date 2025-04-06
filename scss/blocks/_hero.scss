@@ -24,7 +24,7 @@
             @include TextStyle ($fw:700, $fs:40px, $lh:100%, $ls:0%, $clr: $color-blue );
         }
     }
-    &>p{
+    .hero__text{
         @include TextStyle ($fw:400, $fs:18px, $lh:100%, $ls:0%, $clr: $color-black);
         width: 100%;
         padding: 40px 0 50px;
@@ -34,10 +34,18 @@
     }
     .button1{
         @include ButtonStyle ( $btnClr: $color-white, $btnBg:$color-btn, $btnBordClr:transparent);
+        transition: all 0.4s;
+        &:hover{
+            @include ButtonStyle ( $btnClr: $color-black, $btnBg:$color-white, $btnBordClr:$color-btn);
+        }
        }
        .button2{
         @include ButtonStyle ( $btnClr: $color-black, $btnBg:$color-white, $btnBordClr:$color-btn);
+        transition: all 0.4s;
         margin-left: 40px;
+        &:hover{
+            @include ButtonStyle ( $btnClr: $color-white, $btnBg:$color-btn, $btnBordClr:transparent);
+        }
        }
 }
 // Hero second part
