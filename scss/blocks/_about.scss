@@ -40,7 +40,7 @@ margin-top: 30px;
     .about-text{
         @include  TextStyle ($fw:400, $fs:24px, $lh:100%, $ls:0%, $clr: $color-black );
         width: 100%;
-        margin-bottom: 50px;
+        margin-bottom: 20px;
         }
         .about-span{
             @include  TextStyle ($fw:400, $fs:24px, $lh:100%, $ls:0%, $clr: $color-black );

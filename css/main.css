@@ -226,7 +226,7 @@ body {
   line-height: 100%;
   letter-spacing: 0%;
   color: #000000;
-  width: 100%;
+  width: 90%;
   padding: 40px 0 50px;
 }
 .hero__firs-wrapper__buttons-wrapper {
@@ -379,7 +379,7 @@ body {
   letter-spacing: 0%;
   color: #000000;
   width: 100%;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 .about .about-span {
   font-weight: 400;
@@ -430,4 +430,261 @@ body {
   letter-spacing: 0%;
   color: #FFFFFF;
   text-align: center;
+}
+
+.class {
+  padding: 214px 0;
+  text-align: center;
+}
+.class > h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #000000;
+  margin-bottom: 87px;
+}
+
+.content-wrapper .class-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 66px;
+  flex-wrap: wrap;
+}
+.content-wrapper .class-list .class-item {
+  background-color: #5855E7;
+  width: 301px;
+  height: 530px;
+  border-radius: 15px;
+}
+.content-wrapper .class-list .class-item .class-item-content {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 0px;
+  flex-direction: column;
+}
+.content-wrapper .class-list .class-item .class-item-content > img {
+  padding: 19px;
+}
+.content-wrapper .class-list .class-item .class-item-content .class-item-strong {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  margin-bottom: 15px;
+}
+.content-wrapper .class-list .class-item .class-item-content .class-item-span {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+.content-wrapper .class-list .class-item .class-item-content > p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  padding: 20px 25px 30px 38px;
+}
+.content-wrapper .class-list .class-item .class-item-content > button {
+  font-weight: 500;
+  font-size: 24;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #5855E7;
+  padding: 11px 35px;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  border: 3px solid transparent;
+  transition: all 0.4s;
+}
+.content-wrapper .class-list .class-item .class-item-content > button:hover {
+  font-weight: 500;
+  font-size: 24;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  padding: 11px 35px;
+  border-radius: 10px;
+  background-color: #A23AC1;
+  border: 3px solid transparent;
+}
+
+.Connect > h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 81px;
+}
+.Connect .connect-content-wrapper {
+  background-color: #5855E7;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0px;
+}
+.Connect .connect-content-wrapper .connect-first-wrapper {
+  padding: 50px;
+}
+@media (max-width: 1140px) {
+  .Connect .connect-content-wrapper .connect-first-wrapper {
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+@media (max-width: 640px) {
+  .Connect .connect-content-wrapper .connect-first-wrapper {
+    display: none;
+  }
+}
+.Connect .connect-content-wrapper .connect-first-wrapper > strong {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  margin-bottom: 28px;
+}
+.Connect .connect-content-wrapper .connect-first-wrapper .connect-img {
+  margin-top: 40px;
+}
+.Connect .connect-content-wrapper .connect-first-wrapper .connect-list .connect-item {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 5px;
+  margin-top: 20px;
+}
+.Connect .connect-content-wrapper .connect-first-wrapper .connect-list .connect-item > p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  width: 90%;
+}
+.Connect .connect-content-wrapper .connect-first-wrapper .connect-list .connect-item .cube-wrapper {
+  width: 20px;
+  height: 20px;
+  background-color: #A23AC1;
+}
+@media (max-width: 1140px) {
+  .Connect .connect-content-wrapper .connect-first-wrapper .connect-list .connect-item .cube-wrapper {
+    display: none;
+  }
+}
+.Connect .connect-second-wrapper {
+  padding: 50px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 0px;
+  flex-direction: column;
+}
+@media (max-width: 1140px) {
+  .Connect .connect-second-wrapper {
+    display: none;
+  }
+}
+@media (max-width: 640px) {
+  .Connect .connect-second-wrapper {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+.Connect .connect-second-wrapper > strong {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  margin-bottom: 28px;
+}
+.Connect .connect-second-wrapper > p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  width: 80%;
+}
+@media (max-width: 640px) {
+  .Connect .connect-second-wrapper > p {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+}
+.Connect .connect-second-wrapper .connect-second-button {
+  font-weight: 500;
+  font-size: 24;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #000000;
+  padding: 11px 35px;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  border: 3px solid transparent;
+  margin-top: 30px;
+  margin-left: 276px;
+  transition: all 0.4s;
+}
+.Connect .connect-second-wrapper .connect-second-button:hover {
+  font-weight: 500;
+  font-size: 24;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  padding: 11px 35px;
+  border-radius: 10px;
+  background-color: #A23AC1;
+  border: 3px solid transparent;
+}
+@media (max-width: 640px) {
+  .Connect .connect-second-wrapper .connect-second-button {
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+}
+.Connect .connect-second-wrapper .connect-form {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 0px;
+  flex-direction: column;
+}
+.Connect .connect-second-wrapper .connect-form .connect-input {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #000000;
+  text-align: start;
+  padding: 15px 151px 12px 19px;
+  margin-top: 26px;
+  border-radius: 5px;
+  border: none;
+}
+.Connect .connect-second-wrapper .connect-form .connect-input3 {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #000000;
+  text-align: start;
+  padding: 15px 151px 150px 19px;
+  margin-top: 26px;
+  border-radius: 5px;
+  border: none;
 }/*# sourceMappingURL=main.css.map */

@@ -26,7 +26,7 @@
     }
     .hero__text{
         @include TextStyle ($fw:400, $fs:18px, $lh:100%, $ls:0%, $clr: $color-black);
-        width: 100%;
+        width: 90%;
         padding: 40px 0 50px;
     }
     &__buttons-wrapper{
