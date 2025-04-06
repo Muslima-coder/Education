@@ -1,0 +1,35 @@
+.footer-content{
+    background-color: $color-blue;
+    margin-top: 97px;
+    padding: 28px 0;
+}
+.footer{
+    @include Display (  $jc: space-between, $ai: center, $g: 0px );
+
+    .footer-contacts-wrapper{
+        @include Display (  $jc: space-between, $ai: center, $g: 37px );
+           // Mobile media
+    @media (max-width:735px){
+        display: block;
+        text-align: center;
+    }
+
+        .contacs-text{
+            @include TextStyle ($fw:500, $fs:20px, $lh:100%, $ls:0%, $clr: $color-white );
+            margin-top: 9px;
+            transition: all 0.4s;
+            &:hover{
+                @include TextStyle ($fw:500, $fs:20px, $lh:100%, $ls:0%, $clr: $color-purple );
+            }
+        }
+    }
+    .footer-img-wrapper{
+        &>strong{
+            @include TextStyle ($fw:600, $fs:20px, $lh:100%, $ls:0%, $clr: $color-white );
+        }
+        .footer-svg-img{
+            margin-top: 26px;
+            @include Display (  $jc: space-between, $ai: center, $g: 21px );
+        }
+    }
+}

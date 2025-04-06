@@ -30,6 +30,10 @@
                 padding: 0 12px;
                 a{
                     @include TextStyle ($fw:500, $fs:18px, $lh:100%, $ls:0%, $clr: $color-white );
+                    transition: all 0.4s;
+                    &:hover{
+                        @include TextStyle ($fw:500, $fs:24px, $lh:100%, $ls:0%, $clr: $color-purple );
+                    }
                 }
             }
         }
