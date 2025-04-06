@@ -2,9 +2,12 @@
     @include Display ( $ai:start ,$jc:space-between , $g:0px );
 }
 .hero__firs-wrapper{
-    // max-width: 560px;
-    padding: 180px 0 152px;
-    
+     max-width: 560px;
+    padding: 180px 0  150px 0;
+     //   Tablet media 
+     @media (max-width:1125px){
+       text-align: center;
+    }
     &>h2{
         @include TextStyle ($fw:700, $fs:40px, $lh:100%, $ls:0%, $clr: $color-black );
         width: 100%;
@@ -29,7 +32,32 @@
        }
 }
 .hero__second-wrapper{
-    &>img{
-        padding: 0 20px;
+    margin-bottom: 30px;
+     position: relative;
+     width: 645px;
+     height: 645px;
+     right: 0;
+     left: 30px;
+     overflow-y: hidden;
+
+    .hero__background{
+        background-color:  #EDEBFA;
+        border-radius: 50%;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 250px;
+        right: 0;
+    //   Tablet media 
+    @media (max-width:1125px){
+        display: none;
     }
+
+        &>img{
+            position: absolute;
+            top: -250px;
+            right: 95px;
+        }
+    }
+   
 }
