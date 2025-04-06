@@ -67,7 +67,9 @@
       @media (max-width:855px){
        display: block;
       }
-
+    @media (max-width:729px){
+        display: none;
+    }
     .hero__background{
         background-color:  #EDEBFA;
         border-radius: 50%;
